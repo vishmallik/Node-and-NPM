@@ -1,0 +1,26 @@
+{
+  "name": "node-and-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishmallik/Node-and-NPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishmallik/Node-and-NPM/issues"
+  },
+  "homepage": "https://github.com/vishmallik/Node-and-NPM#readme",
+  "description": "",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
+}
