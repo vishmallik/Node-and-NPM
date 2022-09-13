@@ -1,6 +1,5 @@
 const moment = require("moment");
 const lodash = require("lodash");
-
 // Print Date or Time in the following format:
 
 // February 12th 2021, 12:54:12 pm
@@ -18,8 +17,8 @@ console.log(format3);
 //Check if the following date is valid or not:
 // 2020-01-01
 // 2020-14-01
-console.log(moment.isDate("2020-01-01"));
-console.log(moment.isDate("2020-14-01"));
+console.log(moment().isValid("2020-01-01"));
+console.log(moment().isValid("2020-14-01"));
 
 // Manipulating Dates
 
